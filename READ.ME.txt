@@ -1,0 +1,10 @@
+This project is just an example of Front-end side of application development.
+The project doesnt contain other pages, and full web site will be live soon.
+It's fully responsive and it's done with:   -HTML
+                                            -CSS
+                                            -JavaScript
+                                            -Jquery
+
+If there is any issue with responsive elements just refresh the browser and everythink is going to be fixed.
+
+Contact me via Email: -mateja.mata03@gmail.com

@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #030003;
+    overflow-x: hidden;
+}
+
+
+/*Scroll bar*/
+html::-webkit-scrollbar {
+    width: 5px;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: rgb(164, 162, 162);
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/*Bpdy content*/
+.body-content {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+}
+
+@media (max-width: 1360px) {
+    .body-content {
+        width: 80%;
+    }
+}
+@media (max-width: 1270px) {
+    .body-content {
+        width: 90%;
+    }
+}
+@media (max-width: 1130px) {
+    .body-content {
+        width: 95%;
+    }
+}

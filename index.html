@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <!--Title-->
+    <title>Petrović's Project</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index/index.css">
+    <link rel="stylesheet" href="css/body-content.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/febfb36d50.js" crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/index/logo.svg">
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <div class="blur-div" id="background-blur1"></div>
+  <div class="blur-div" id="background-blur2"></div>
+  <div class="blur-div" id="background-blur3"></div>
+  <div class="blur-div" id="background-blur4"></div>
+
+<div class="body-content">
+
+        <!--Hero video-->
+        <div id="hero-video" class="hero-popup">
+          <div id="close-video" class="close-popup">X</div>
+          <video src="video/video.mp4"></video>
+        </div>
+
+        <!--Get started button popup-->
+        <div id="get-started-popup" class="hero-popup">
+          <div class="close-popup" id="close-pop-up">X</div>
+          <h1 class="dont-close-vid">Let's Start the Project!</h1>
+          <h3 class="dont-close-vid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, nihil.</h3>
+          <p class="dont-close-vid">Email us: <span class="email">mateja.mata03@gmail.com</span></p>
+          <p class="dont-close-vid">Come to us: <span><a href="https://www.google.com/maps?q=banovo+brdo&rlz=1C1BNSD_enRS945RS945&sxsrf=ALiCzsbHHEeTM3SD9K4adXKnVfvYZzKl1g:1658562756659&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECC4QQzIKCC4QxwEQ0QMQQzIFCAAQgAQyBQgAEIAEMgsILhCABBDHARDRAzIFCC4QgAQyBQguEIAEMgUILhCABDoHCC4Q1AIQQzoECAAQQzoKCC4QxwEQrwEQQzoICC4QgAQQ1AI6BwgAEIAEEAo6CwguEIAEEMcBEK8BOgoILhDHARCvARAKOgQIABAKOgoILhDHARDRAxAKOgsILhDHARDRAxCRAkoECEEYAEoECEYYAFAAWOUSYMweaAFwAHgAgAGMAYgB_QaSAQM1LjSYAQCgAQHAAQE&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjRru_mw475AhWSXvEDHfwXC5kQ_AUoAnoECAIQBA" target="_blank">Belgrade - Banovo Brdo</a></span></p>
+          <div class="dont-close-vid">
+            <a href="" target="_blank" class="social-icon-wrapper linkdin-hover dont-close-vid">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="" target="_blank" class="social-icon-wrapper twitter-hover dont-close-vid">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" target="_blank" class="social-icon-wrapper facebook-hover dont-close-vid">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+        </div>
+
+        <!--Phone call mobile-->
+        <div id="phone-call-mobile">
+          <i class="fas fa-phone-alt desktop-br"></i>
+        </div>
+
+        <!--Header-->
+        <header>
+            <div id="header-content">
+                <div id="header-content-left">
+                    <div id="logo">
+                        <img src="img/index/logo.svg">
+                        <h1 class="git-hub-link">Petrović's Project</h1>
+                    </div>
+                    <div id="header-br">
+                        <i class="fas fa-phone-alt desktop-br"></i>
+                        <p class="desktop-br">+381 23 23 23</p>
+                    </div>
+                </div>
+                <div id="header-content-right">
+                    <nav id="header-nav">
+                        <li class="header-first-li"><a href=''>Home</a></li>
+                        <li class="header-first-li"  id="solutions-hover-li"><a id="solutions-hover-li-a" href=''>Solutions<i id="li-arrow1" class="fas fa-caret-down arrow-none"></i></a>
+                            <nav id="hovered-solutions-nav">
+                                <li class="mobile-dropdown-links"><a href="">Electronic Shelf Labels</a></li>
+                                <li class="mobile-dropdown-links"><a href="">Visitor counter</a></li>
+                                <li class="mobile-dropdown-links"><a href="">Report management</a></li>
+                                <li class="mobile-dropdown-links"><a href="">Working time management</a></li>
+                                <li class="mobile-dropdown-links"><a href="">Retail program</a></li>
+                            </nav></li>
+                        <li class="header-first-li" id="solutions-hover-li-usluge"><a href='' id="usluge-prevent">Services<i id="li-arrow2" class="fas fa-caret-down arrow-none"></i></a>
+                          <nav id="hovered-solutions-nav-usluge">
+                            <li class="mobile-dropdown-links-usluge" id="hovered-solutions-li-usluge"><a href="" id="usluge-prevent2">Safety systems<i id="li-arrow3" class="fas fa-caret-down arrow-none"></i></a>
+                            <nav id="hovered-solutions-nav-usluge2">
+                              <li class="mobile-dropdown-links-usluge2"><a href="">Fog devices</a></li>
+                              <li class="mobile-dropdown-links-usluge2"><a href="">GPS bags for market transport</a></li>
+                            </nav>
+                            </li>
+                            <li class="mobile-dropdown-links-usluge"><a href="">Safety and Health at Work</a></li>
+                            <li class="mobile-dropdown-links-usluge"><a href="">Front desk</a></li>
+                            <li class="mobile-dropdown-links-usluge"><a href="">Personnel administration and payroll</a></li>
+                          </nav>
+                        </li>
+                        <li class="header-first-li"><a href="">Consulting</a></li>
+                        <li class="header-first-li"><a href="">About us</a></li>
+                    </nav>
+                </div>
+                <div id="mobile-menu">
+                  <span class="menu-bars" id="bar1"></span>
+                  <span class="menu-bars" id="bar2"></span>
+                  <span class="menu-bars" id="bar3"></span>
+                </div>
+            </div>
+        </header>
+        <!--/Header-->
+
+        <!--Hero-->
+        <div id="hero">
+            <div id="hero-content">
+                <div id="hero-left-side">
+                  <p id="blue-text" class="hero-p">Multiple offers</p>
+                  <h1>We Are <span id="hero-word-span"><span id="circle1" class="circle-span"></span><span id="circle2" class="circle-span"></span><span id="circle3" class="circle-span"></span><span id="circle4" class="circle-span"></span>Proffesional</span><br>Of Your Business<br>Growth</h1>
+                  <p id="second-p-text">We bring online world to your store</p>
+                  <span id="hero-bttn-span">
+                      <button class="button-animation">
+                        <span class="bttn-before"></span>
+                        Get started
+                        <i class="fas fa-arrow-right button-animation-arrow"></i>
+                        <span class="bttn-after"></span>
+                      </button>
+                      <div id="play-bttn">
+                          <span id="play-icon-border">
+                            <span id="loader"></span>
+                              <i class="fas fa-play"></i>
+                          </span>
+                          <p id="play-bttn-p">
+                            Watch a Demo
+                          </p>
+                      </div>
+                  </span>
+                  <div id="social-medias-hero">
+                      <p>Follow on Our<br>social media</p>
+                      <i class="fas fa-arrow-right hero-arrow"></i>
+                      <div id="social-icons">
+                          <a href="" target="_blank" id="linkdin-icon" class="social-icon-wrapper linkdin-hover">
+                              <i class="fab fa-linkedin-in"></i>
+                          </a>
+                          <a href="" target="_blank" class="social-icon-wrapper twitter-hover">
+                              <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="" target="_blank" class="social-icon-wrapper facebook-hover">
+                              <i class="fab fa-facebook-f"></i>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+                <div id="hero-right-side">
+                  <div id="background-blur5"></div>
+                    <div id="hero-img">
+                      <img src="img/index/hero-illustration.svg">
+                    </div>
+                    <div id="hero-grid">
+                        <div id="column1" class="grid-class grid-columns"></div>
+                        <div id="column2" class="grid-class grid-columns"></div>
+                        <div id="column3" class="grid-class grid-columns"></div>
+                        <div id="column4" class="grid-class grid-columns"></div>
+                        <div id="row1" class="grid-class grid-rows"></div>
+                        <div id="row2" class="grid-class grid-rows"></div>
+                        <div id="row3" class="grid-class grid-rows"></div>
+                        <div id="row4" class="grid-class grid-rows"></div>
+                    </div> 
+                    <div id="statistic-hero">
+                        <div class="statistic-card" id="green-statistic">
+                            <div id="green-icon-background">
+                                <i class="fas fa-long-arrow-alt-up"></i>
+                            </div>
+                            <div class="statistic-numms">
+                                <span id="green-numm">$598K</span>
+                                <p id="green-text">income</p>
+                            </div>
+                        </div>
+                        <div class="statistic-card" id="red-statistic">
+                            <div id="red-icon-background">
+                                <i class="fas fa-long-arrow-alt-down"></i>
+                            </div>
+                            <div class="statistic-numms">
+                                <span id="red-numm">$270K</span>
+                                <p id="red-text">spending</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute-el" id="circle-el1">$</div>
+                    <div class="absolute-el" id="circle-el2">
+                        <img src="img/index/sraf1.svg">
+                    </div>
+                    <div class="absolute-el" id="circle-el3">$</div>
+                    <div class="absolute-el" id="circle-el4"></div>
+                    <div class="absolute-el" id="circle-el5">
+                        <img src="img/index/sraf2.svg">
+                    </div>
+                    <div class="absolute-el" id="circle-el6"></div>
+                    <div class="absolute-el" id="circle-el7">
+                       <img src="img/index/hero-statistic.svg">
+                    </div>
+                    <div class="absolute-el" id="circle-el8">
+                        <div id="circle-el8-statistic">
+                            <img src="img/index/half-circle1.svg">
+                          <p>75</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Our features-->
+        <div id="second-section">
+          <div class="second-section-blur" id="second-section-blur1"></div>
+          <div class="second-section-blur" id="second-section-blur9"></div>
+          <div id="features-text">
+            <div id="features-circles">
+              <div id="features-circle1" class="feature-circle"></div>
+              <div id="features-circle2" class="feature-circle"></div>
+              <div id="features-circle3" class="feature-circle"></div>
+            </div>
+            <p id="blue-features-text" class="hero-p">Services</p>
+            <h2>Our features</h2>
+            <p id="features-second-p">Business consultants help companies overcome challenges
+              increase revenue or grow.</p>
+              <div id="second-section-absolute-el1">
+                <img src="img/index/sraf3.svg">
+              </div>
+          </div>
+
+          <div id="features-background" class="glass-hover">
+            <div id="features-background-glass" class="glass-hover"></div>
+            <div class="second-section-blur" id="second-section-blur2"></div>
+            <div class="second-section-blur" id="second-section-blur3"></div>
+            <div class="second-section-blur" id="second-section-blur4"></div>
+            <div class="second-section-blur" id="second-section-blur5"></div>
+            <div class="second-section-blur" id="second-section-blur6"></div>
+            <div class="second-section-blur" id="second-section-blur7"></div>
+            <div class="second-section-blur" id="second-section-blur8"></div>
+            <div class="features-card glass-hover" id="feature-card1">
+                <div class="features-cards-glass glass-hover"></div>
+                <div class="features-card-img" id="features-img1">
+                  <img src="img/index/business-consulting.svg">
+                </div>
+                <h1>Business Consulting</h1>
+                <p>Business consultants help companies
+                  overcome challenges increase
+                  revenue or grow.</p>
+                  <a href="" class="feature-card-link">
+                    Learn more
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+            </div>
+            <div class="features-card glass-hover" id="feature-card2">
+              <div class="features-cards-glass glass-hover"></div>
+              <div class="features-card-img">
+                <img src="img/index/marketing-analysis.svg">
+              </div>
+                <h1>Market Analysis</h1>
+                <p>Business consultants help companies
+                  overcome challenges increase
+                  revenue or grow.</p>
+                  <a href="" class="feature-card-link">
+                    Learn more
+                    <i class="fas fa-arrow-right"></i>
+                  </a>             
+            </div>
+            <div class="features-card glass-hover" id="feature-card3">
+              <div class="features-cards-glass glass-hover"></div>
+              <div class="features-card-img">
+                <img src="img/index/user-marketing.svg">
+              </div>
+                <h1>User Marketing</h1>
+                <p>Business consultants help companies
+                  overcome challenges increase
+                  revenue or grow.</p>
+                  <a href="" class="feature-card-link">
+                    Learn more
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+            </div>
+          </div>
+        </div>
+
+
+        <!--Electronic Shelf Labels-->
+        <div id="third-section">
+          <div id="third-left-section">
+            <div class="self-card-blur" id="self-card-blur9"></div>
+            <p id="third-section-blue-p" class="blue-text hero-p">Business Fam</p>
+            <h1>Electronic Shelf Labels</h1>
+            <p id="third-section-uvod">Business consultants help companies overcome
+              challenges increase.</p>
+            <div id="shelf-background">
+              <div id="self-overlay"></div>
+              <div class="self-card" id="self-card1">
+                <div class="self-card-blur" id="self-card-blur1"></div>
+                <div class="self-card-blur" id="self-card-blur2"></div>
+                <div class="self-card-blur" id="self-card-blur3"></div>
+                <div class="self-card-overlay"></div>
+                <h2 class="blue-text">Your Fam, Your Rules</h2>
+                <p class="self-cardp">Business consultants help companies overcome
+                  challenges increase revenue or grow.</p>
+              </div>
+              <div class="self-card" id="self-card2">
+                <div class="self-card-blur" id="self-card-blur4"></div>
+                <div class="self-card-overlay"></div>
+                <h2>Exciting Challenge, Your Fam Only</h2>
+                <p class="self-cardp">Business consultants help companies overcome
+                  challenges increase revenue or grow.</p>
+              </div>
+              <div class="self-card" id="self-card3">
+                <div class="self-card-blur" id="self-card-blur5"></div>
+                <div class="self-card-blur" id="self-card-blur6"></div>
+                <div class="self-card-overlay"></div>
+                <h2>Your Fam, Your Rules</h2>
+                <p class="self-cardp">Business consultants help companies overcome
+                  challenges increase revenue or grow.</p>
+              </div>
+            </div>
+          </div>
+          <div id="third-right-section">
+            <div class="self-card-blur" id="self-card-blur7"></div>
+            <div class="self-card-blur" id="self-card-blur8"></div>
+            <img src="img/index/elektronske_cene.png">
+          </div>
+        </div>
+    
+        <!--Support-->
+        <div id="forth-section">
+          <div id="forth-section-img">
+            <div class="absolute-el-4" id="image-circle-blur"></div>
+            <div class="absolute-el-4" id="circle-blur-forth1"></div>
+            <div class="absolute-el-4" id="circle-blur-forth2"></div>
+            <div class="absolute-el-4" id="statistic-circle-4">
+              <div id="statistic-circle-forth">
+                  <img src="img/index/half-circle2.svg">
+                <p>75</p>
+              </div>
+          </div>
+          <img id="forth-primary-img" src="img/index/forth-section-img.svg">
+            <div class="absolute-el-4" id="el-4-1">
+              <img src="img/index/sraf4.svg">
+            </div> 
+            <div class="absolute-el-4" id="forth-circles">
+              <div id="forth-el-circle1" class="forth-circle"></div>
+              <div id="forth-el-circle2" class="forth-circle"></div>
+              <div id="forth-el-circle3" class="forth-circle"></div>
+            </div>
+          </div>
+          <div id="forth-section-text">
+            <div class="absolute-el-4" id="circle-blur-forth3">$</div>
+            <div class="absolute-el-4" id="circle-blur-forth4"></div>
+            <div class="absolute-el-4" id="circle-blur-forth5"></div>
+            <p class="blue-text hero-p" id="forth-section-p">Support</p>
+            <h1>We Give More Than 1000+ <br> Customers Support</h1>
+            <p id="forth-section-content">Business consultants provide management consulting to help
+              organizations improve their performance and efficiency. 
+              These professionals analyze businesses and create
+              while also helping.</p>
+            <button class="button-animation">
+              <span class="bttn-before"></span>
+              Read More
+              <i class="fas fa-arrow-right button-animation-arrow"></i>
+              <span class="bttn-after"></span>
+              <a href=""></a>
+            </button>
+          </div>
+        </div>
+
+
+        <!--Partners-->
+        <div id="partners-section">
+          <div id="circle-partner12"></div>
+          <div id="circle-partner13"></div>
+          <div id="circle-partner14"></div>
+          <div id="circle-partner15"></div>
+          <div id="partners-text">
+            <div id="partners-circle-dollar">$</div>
+            <div class="absolute-el-4" id="partners-el4">
+              <img src="img/index/sraf5.svg">
+            </div> 
+            <p class="blue-text hero-p" id="partners-first-p">Partners</p>
+            <h1>Some Of Our Business Partners</h1>
+            <p id="partners-second-p">Business consultants help companies overcome challenges
+              increase revenue or grow.</p>
+          </div>
+          <div id="partners-background">
+            <div class="absolute-cirlce-partners" id="circle-partner1"></div>
+            <div class="absolute-cirlce-partners" id="circle-partner2"></div>
+            <div class="absolute-cirlce-partners" id="circle-partner3"></div>
+            <div class="absolute-cirlce-partners" id="circle-partner4"></div>
+            <div id="partners-overlay"></div>
+            <div class="partner-card" id="partner-card1">
+              <div class="partner-card-overlay"></div>
+              <div class="absolute-cirlce-partners" id="circle-partner5"></div>
+              <div class="absolute-cirlce-partners" id="circle-partner6"></div>
+              <img class="partner-logo" src="img/index/xiaomi-logo.png">
+            </div>
+            <div class="partner-card" id="partner-card2">
+              <div class="partner-card-overlay"></div>
+              <div class="absolute-cirlce-partners" id="circle-partner9"></div>
+              <img class="partner-logo" src="img/index/a1-logo.jpg">
+            </div>
+            <div class="partner-card" id="partner-card3">
+              <div class="partner-card-overlay"></div>
+              <div class="absolute-cirlce-partners" id="circle-partner10"></div>
+              <img class="partner-logo" src="img/index/sap-logo.png">
+            </div>
+            <div class="partner-card" id="partner-card4">
+              <div class="partner-card-overlay"></div>
+              <div class="absolute-cirlce-partners" id="circle-partner7"></div>
+              <div class="absolute-cirlce-partners" id="circle-partner8"></div>
+              <img class="partner-logo" src="img/index/lenovo-logo.png">
+            </div>
+            <div class="partner-card" id="partner-card5">
+              <div class="partner-card-overlay"></div>
+              <img class="partner-logo" src="img/index/carrefour-logo.png">
+            </div>
+            <div class="partner-card" id="partner-card6">
+              <div class="partner-card-overlay"></div>
+              <div class="absolute-cirlce-partners" id="circle-partner11"></div>
+              <img class="partner-logo" src="img/index/esso-logo.png">
+            </div>
+          </div>
+          <div id="partners-mobile-section">
+          <div id="partners-mobile-section-content">
+            <div id="partners-mobile-overlay"></div>
+              <div id="partners-slider">
+                <div id="partners-slides">
+                    <div class="partners-slide">
+                      <img class="partner-logo" src="img/index/xiaomi-logo.png">
+                    </div>
+                    <div class="partners-slide">
+                      <img class="partner-logo" src="img/index/a1-logo.jpg">
+                    </div>
+                    <div class="partners-slide">
+                      <img class="partner-logo" src="img/index/sap-logo.png">
+                    </div>
+                    <div class="partners-slide">
+                      <img class="partner-logo" src="img/index/lenovo-logo.png">
+                    </div>
+                    <div class="partners-slide">
+                      <img class="partner-logo" src="img/index/carrefour-logo.png">
+                    </div>
+                    <div class="partners-slide">
+                      <img class="partner-logo" src="img/index/esso-logo.png">
+                    </div>
+                </div>
+                <div href="#" id="prev">&#8592;</div>
+                <div href="#" id="next">&#8594;</div>
+              </div>
+          </div>
+        </div>
+        </div>
+
+        
+        <!--Testemonial-->
+        <div id="testemonial-section">
+          <div class="testemonial-blur" id="testemonial-blur-circle"></div>
+          <div class="testemonial-blur" id="testemonial-blur-circle1"></div>
+          <div class="testemonial-circle" id="testemonial-blur-circle2"></div>
+          <div class="testemonial-circle" id="testemonial-blur-circle3"></div>
+
+          <div id="testemonial-text">
+            <p class="blue-text hero-p" id="first-test-p">Testemonial</p>
+            <h2>What Our Clients say <br>About us</h2>
+            <p id="second-test-p">Business consultants provide management consulting to help
+              organizations improve their performance and efficiency. 
+              These professionals analyze businesses and create
+              while also helping.</p>
+              <div id="test-slider-indicators">
+                <button class="test-slider-dot active-dot" id="test-slider-dot1" data-slider="1"></button>
+                <button class="test-slider-dot" id="test-slider-dot2" data-slider="2"></button>
+                <button class="test-slider-dot" id="test-slider-dot3" data-slider="3"></button>
+              </div>
+            <div id="testemonial-mobile-indicator"></div>
+          </div>
+
+          <div id="testemonial-content">
+            <button class="test-pagination" id="testemonial-prev-slide-bttn">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="test-pagination" id="testemonial-next-slide-bttn">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            <div class="testemonial-circle" id="testemonial-blur-circle4">$</div>
+            <div id="testemonial-blur-circle5">
+              <img src="img/index/sraf6.svg">
+            </div> 
+
+
+            <div class="testemonial-card active-slide" id="testemonial-card1">
+              <div class="test-card-img" id="test-img1">
+                <img src="img/index/testemonial-img1.svg">
+              </div>
+              <div class="testemonial-card-background">
+                <div class="testemonial-card-overlay"></div>
+                <div class="testemonial-card-content">
+                  <div class="testemonial-card-content-overlay"></div>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                  <div class="testemonial-card-name">
+                    <h4 class="card-name">Caspar Sewrey</h4>
+                    <p>CEO of company</p>
+                  </div>
+                  <div class="testemonial-blur testemonial-blur1"></div>
+                  <div class="testemonial-blur testemonial-blur2"></div>
+                  <div class="testemonial-blur testemonial-blur3"></div>
+                  <div class="testemonial-blur testemonial-blur4"></div>
+                </div>
+              </div>
+              <div class="slide-index">Caspar Sewrey 1/3</div>
+            </div>
+
+            <div class="testemonial-card " id="testemonial-card2">
+              <div class="test-card-img" id="test-img2">
+                <img src="img/index/testemonial-img2.svg">
+              </div>
+              <div class="testemonial-card-background">
+                <div class="testemonial-card-over lay"></div>
+                <div class="testemonial-card-content">
+                  <div class="testemonial-card-content-overlay"></div>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                  <div class="testemonial-card-name">
+                    <h4 class="card-name">Kevin Lowry</h4>
+                    <p>CEO of company</p>
+                  </div>
+                  <div class="testemonial-blur testemonial-blur1"></div>
+                  <div class="testemonial-blur testemonial-blur2"></div>
+                  <div class="testemonial-blur testemonial-blur3"></div>
+                  <div class="testemonial-blur testemonial-blur4"></div>
+                </div>
+              </div>
+              <div class="slide-index">Kevin Lowry 2/3</div>
+            </div>
+
+            <div class="testemonial-card" id="testemonial-card3">
+              <div class="test-card-img" id="test-img3">
+                <img src="img/index/testemonial-img3.svg">
+              </div>
+              <div class="testemonial-card-background">
+                <div class="testemonial-card-overlay"></div>
+                <div class="testemonial-card-content">
+                  <div class="testemonial-card-content-overlay"></div>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                  <div class="testemonial-card-name">
+                    <h4 class="card-name">Caspar Lowry</h4>
+                    <p>CEO of company</p>
+                  </div>
+                  <div class="testemonial-blur testemonial-blur1"></div>
+                  <div class="testemonial-blur testemonial-blur2"></div>
+                  <div class="testemonial-blur testemonial-blur3"></div>
+                  <div class="testemonial-blur testemonial-blur4"></div>
+                </div>
+              </div>
+              <div class="slide-index">Caspar Lowry 3/3</div>
+            </div>
+          </div>
+
+          <div id="testemonial-mobile-slider-wrap">
+            <div id="testemonial-mobile-slider">
+              <div id="testemonial-mobile-slides">
+                  <div class="testemonial-mobile-slide">
+                    <div class="test-slide-overlay"></div>
+                    <div class="mobile-test-content">
+                      <div class="mobile-test-slider-img" id="testslide-img1">
+                        <img src="img/index/testemonial-img1.svg">
+                      </div>
+                      <p class="test-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                      <div class="mobile-card-name">
+                        <h4 class="mobile-name">Caspar Sewrey</h4>
+                        <p>CEO of company</p>
+                      </div>
+                    </div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur1"></div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur2"></div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur3"></div>
+                  </div>
+                  <div class="testemonial-mobile-slide">
+                    <div class="test-slide-overlay"></div>
+                    <div class="mobile-test-content">
+                      <div class="mobile-test-slider-img" id="testslide-img1">
+                        <img src="img/index/testemonial-img2.svg">
+                      </div>
+                      <p class="test-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                      <div class="mobile-card-name">
+                        <h4 class="mobile-name">Kevin Lowry</h4>
+                        <p>CEO of company</p>
+                      </div>
+                    </div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur1"></div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur2"></div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur3"></div>
+                  </div>
+                  <div class="testemonial-mobile-slide">
+                    <div class="test-slide-overlay"></div>
+                    <div class="mobile-test-content">
+                      <div class="mobile-test-slider-img" id="testslide-img1">
+                        <img src="img/index/testemonial-img3.svg">
+                      </div>
+                      <p class="test-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                      <div class="mobile-card-name">
+                        <h4 class="mobile-name">Caspar Lowry</h4>
+                        <p>CEO of company</p>
+                      </div>
+                    </div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur1"></div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur2"></div>
+                    <div class="testemonial-mobile-blur testemonial-mobile-blur3"></div>
+                  </div>
+              </div>
+              <div id="testemonial-mobile-prev">
+                <i class="fas fa-arrow-left"></i>
+              </div>
+              <div id="testemonial-mobile-next">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="testemonial-circle" id="testemonial-blur-mobile-circle4">$</div>
+            <div id="teste-mobile-sraf">
+              <img src="img/index/sraf6.svg">
+            </div> 
+          </div>
+        </div>
+
+</div>
+
+        <!--Newsletter-->
+        <div id="newsletter-section">
+          <div class="newsletter-absolute-el" id="newsletter-circle-blur1"></div>
+          <div class="newsletter-absolute-el" id="newsletter-circle-blur2"></div>
+          <div class="newsletter-absolute-el" id="newsletter-circle-blur3"></div>
+          <div id="newsletter-content">
+            <div id="newsletter-text">
+              <h2>Subscribe To Newsletter To Stay Up To <br>Date On Our Latest News</h2>
+            </div>
+            <div id="newsletter-input">
+              <div id="input-bttn-span">
+                <input type="text" placeholder="Click the button to see the magic">
+                <button>
+                  <p id="newsletter-subscribe">Subscribe</p>
+                  <p id="newsletter-thanks">Thanks!</p>
+                  <div id="newsletter-bttn-i">
+                    <i class="fas fa-check"></i>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<div class="body-content">
+
+        <!--Footer-->
+        <footer>
+          <div class="footer-absolute-el" id="footer-cirlce-blur1"></div>
+          <div class="footer-absolute-el" id="footer-cirlce-blur2"></div>
+          <div class="footer-section footer-card" id="footer-company">
+            <h3>Company</h3>
+            <a href="">Solutions</a>
+            <a href="">Services</a>
+            <a href="">Consulting</a>
+            <a href="">About us</a>
+          </div>
+          <div class="footer-section footer-card" id="footer-information">
+            <h3>Solutions</h3>
+            <a href="">Electronic Shelf Labels</a>
+            <a href="">Visitor counter</a>
+            <a href="">Report management</a>
+            <a href="">Working time management</a>
+            <a href="">Retail program</a>
+          </div>
+          <div class="footer-section footer-card" id="footer-service">
+            <h3>Services</h3>
+            <a href="">Safety systems</a>
+            <a href="">Safety and Health at Work</a>
+            <a href="">Front desk</a>
+            <a href="">Personnel administration and payroll</a>
+          </div>
+          <div class="footer-section" id="footer-logo-section">
+            <div id="footer-logo">
+              <img src="img/index/logo.svg">
+              <h1 class="git-hub-link">Petrović's Project</h1>
+            </div>
+            <p id="footer-adresa"><a href="https://www.google.com/maps?q=banovo+brdo&rlz=1C1BNSD_enRS945RS945&sxsrf=ALiCzsbHHEeTM3SD9K4adXKnVfvYZzKl1g:1658562756659&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECC4QQzIKCC4QxwEQ0QMQQzIFCAAQgAQyBQgAEIAEMgsILhCABBDHARDRAzIFCC4QgAQyBQguEIAEMgUILhCABDoHCC4Q1AIQQzoECAAQQzoKCC4QxwEQrwEQQzoICC4QgAQQ1AI6BwgAEIAEEAo6CwguEIAEEMcBEK8BOgoILhDHARCvARAKOgQIABAKOgoILhDHARDRAxAKOgsILhDHARDRAxCRAkoECEEYAEoECEYYAFAAWOUSYMweaAFwAHgAgAGMAYgB_QaSAQM1LjSYAQCgAQHAAQE&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjRru_mw475AhWSXvEDHfwXC5kQ_AUoAnoECAIQBA" target="_blank">Banovo Brdo <br>Belgrade</a></p>
+            <div id="social-medias-footer">
+                <a href="" target="_blank" id="linkdin-icon" class="social-icon-wrapper linkdin-hover">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="" target="_blank" class="social-icon-wrapper  twitter-hover" id="footer-twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" target="_blank" class="social-icon-wrapper facebook-hover">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+          </div>
+        </footer>
+        
+        <!--Copyright-->
+        <div id="copyright">
+          <p>Example Landing page done by - <span class="git-hub-link" id="name">Mateja Petrović</span></p>
+        </div> 
+
+      <!--/Footer-->
+        
+</div>
+    
+    
+<script src="js/index.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+ <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124.675" height="94.552" viewBox="0 0 124.675 94.552">
+    <defs>
+    <linearGradient id="linear-gradient" x1="0.978" y1="0.013" x2="0.031" y2="0.977" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#26CDFF"/>
+    <stop offset="1" stop-color="#CEE8F4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.943" y1="-0.012" x2="0.065" y2="1.003" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#f386c5"/>
+    <stop offset="1" stop-color="#cf539a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.25" y1="1" x2="1.222" y2="0.019" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#00d7d5"/>
+    <stop offset="1" stop-color="#b0fffe"/>
+    </linearGradient>
+    <filter id="Rectangle_17" x="51.656" y="35.499" width="10.892" height="39.573" filterUnits="userSpaceOnUse">
+    <feOffset dy="0.25" input="SourceAlpha"/>
+    <feGaussianBlur stdDeviation="0.125" result="blur"/>
+    <feFlood flood-color="#482c75" flood-opacity="0.651"/>
+    <feComposite operator="in" in2="blur"/>
+    <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.134" y1="1.053" x2="0.852" y2="-0.032" xlink:href="#linear-gradient-3"/>
+    <filter id="Rectangle_19" x="88.187" y="57.188" width="10.892" height="17.885" filterUnits="userSpaceOnUse">
+    <feOffset dy="0.25" input="SourceAlpha"/>
+    <feGaussianBlur stdDeviation="0.125" result="blur-2"/>
+    <feFlood flood-color="#482c75" flood-opacity="0.651"/>
+    <feComposite operator="in" in2="blur-2"/>
+    <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="-0.024" y1="1.042" x2="1.007" y2="-0.025" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#c98b00"/>
+    <stop offset="1" stop-color="#f0d393"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.994" y1="-0.021" x2="0.036" y2="0.99" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#ffc6c8"/>
+    <stop offset="0.169" stop-color="#fdb7ba"/>
+    <stop offset="0.717" stop-color="#f98e93"/>
+    <stop offset="1" stop-color="#f87f84"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="-0.016" y1="1.035" x2="1" y2="-0.018" xlink:href="#linear-gradient-5"/>
+</defs>
+<rect id="Rectangle_10" data-name="Rectangle 10" width="124.675" height="94.552" rx="16" fill="#26CDFF"/>
+<g id="Group_36" data-name="Group 36" transform="translate(14.923 27.364)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="10.142" height="47.083" rx="2" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="10.142" height="47.083" rx="2" fill="none"/>
+</g>
+<g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_17)">
+    <rect id="Rectangle_17-2" data-name="Rectangle 17" width="10.142" height="38.823" rx="3.01" transform="translate(62.17 74.45) rotate(180)" fill="url(#linear-gradient-3)"/>
+</g>
+<g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_19)">
+    <rect id="Rectangle_19-2" data-name="Rectangle 19" width="10.142" height="17.135" rx="2" transform="translate(98.7 74.45) rotate(180)" fill="url(#linear-gradient-4)"/>
+</g>
+<g id="Group_41" data-name="Group 41" transform="translate(26.8 42.249)">
+    <rect id="Rectangle_22" data-name="Rectangle 22" width="10.142" height="32.198" rx="2" fill="url(#linear-gradient-5)"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="10.142" height="32.198" rx="2" fill="none"/>
+</g>
+<g id="Group_44" data-name="Group 44" transform="translate(63.909 48.552)">
+    <rect id="Rectangle_25" data-name="Rectangle 25" width="10.142" height="25.895" rx="2" fill="url(#linear-gradient-6)"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" width="10.142" height="25.895" rx="2" fill="none"/>
+</g>
+<g id="Group_47" data-name="Group 47" transform="translate(100.439 42.249)">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="10.142" height="32.199" rx="3.401" fill="url(#linear-gradient-7)"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="10.142" height="32.199" rx="3.401" fill="none"/>
+</g>
+</svg>
